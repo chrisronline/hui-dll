@@ -1,10 +1,12 @@
 var path = require('path');
 var webpack = require('webpack');
-var version = require('./package.json').version;
+var pkg = require('./package.json')
+var version = pkg.version;
+var deps = Object.keys(pkg.dependencies);
 
 module.exports = {
   entry: {
-    vendor: ['react', 'react-dom']
+    vendor: deps
   },
   output: {
     library: '[name]_[hash]',
