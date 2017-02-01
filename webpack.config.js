@@ -9,15 +9,15 @@ module.exports = {
     vendor: deps
   },
   output: {
-    library: '[name]_[hash]',
+    library: `[name]`,
     libraryTarget: 'var',
-    filename: `./dist/[name]_${version}.js`
+    filename: `./dist/[name].js`
   },
   recordsPath: path.resolve(__dirname, './webpack.records'),
   plugins: [
     new webpack.DllPlugin({
       path: './dist/manifest.json',
-      name: `[name]_${version}`,
+      name: `[name]`,
     })
   ]
 };
