@@ -1,0 +1,25 @@
+{
+  "name": "hui-dll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/manifest.json",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisronline/hui-dll.git"
+  },
+  "author": "Chris Roberson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisronline/hui-dll/issues"
+  },
+  "homepage": "https://github.com/chrisronline/hui-dll#readme"
+}
