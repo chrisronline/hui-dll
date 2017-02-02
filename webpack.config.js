@@ -7,7 +7,7 @@ var deps = Object.keys(pkg.dependencies);
 deps.push('react-dom/server')
 
 var entry = {};
-entry['hui-vendor'] = deps
+entry['hui_vendor'] = deps
 
 module.exports = {
   entry: entry,
