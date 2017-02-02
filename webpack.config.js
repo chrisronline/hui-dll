@@ -21,5 +21,9 @@ module.exports = {
       path: './dist/manifest.json',
       name: `[name]`,
     })
-  ]
+  ],
+  node: {
+    fs: 'empty',
+    module: 'empty'
+  }
 };

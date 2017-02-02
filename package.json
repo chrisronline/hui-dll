@@ -1,6 +1,6 @@
 {
   "name": "hui-dll",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -15,6 +15,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chrisronline/hui-dll.git"
+  },
+  "scripts": {
+    "prepublish": "./node_modules/.bin/webpack"
   },
   "author": "Chris Roberson",
   "license": "ISC",
