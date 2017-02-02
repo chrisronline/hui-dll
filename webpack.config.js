@@ -6,10 +6,11 @@ var deps = Object.keys(pkg.dependencies);
 
 deps.push('react-dom/server')
 
+var entry = {};
+entry['hui-vendor'] = deps
+
 module.exports = {
-  entry: {
-    vendor: deps
-  },
+  entry: entry,
   output: {
     library: `[name]`,
     libraryTarget: 'var',
