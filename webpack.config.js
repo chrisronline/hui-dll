@@ -4,6 +4,8 @@ var pkg = require('./package.json')
 var version = pkg.version;
 var deps = Object.keys(pkg.dependencies);
 
+deps.push('react-dom/server')
+
 module.exports = {
   entry: {
     vendor: deps
